@@ -1,6 +1,6 @@
 {
   "packs": [
-    "range.json"
+    "range/pack.json"
   ],
   "homeserver_url": "https://matrix-client.matrix.org"
 }
