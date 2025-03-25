@@ -1,1 +1,22 @@
-{"title": "Range Pack", "id": "range", "stickers": [{"body": "joever", "url": "mxc://matrix.org/YdUIOJOMYOmNtHtWSriPfmhK", "info": {"w": 256, "h": 256, "size": 115874, "mimetype": "image/png", "thumbnail_url": "mxc://matrix.org/YdUIOJOMYOmNtHtWSriPfmhK", "thumbnail_info": {"w": 256, "h": 256, "size": 115874, "mimetype": "image/png"}}, "msgtype": "m.sticker", "id": "sha256:b75e82b4305262bd4d471e66b786cc31af98873e6751274e28364ac6844bbb3a"}, {"body": "barack", "url": "mxc://matrix.org/zjtwcabptHoWLFqnlngeLfSY", "info": {"w": 256, "h": 256, "size": 130221, "mimetype": "image/png", "thumbnail_url": "mxc://matrix.org/zjtwcabptHoWLFqnlngeLfSY", "thumbnail_info": {"w": 256, "h": 256, "size": 130221, "mimetype": "image/png"}}, "msgtype": "m.sticker", "id": "sha256:5db47b75e13971ef858aaf5d7b1ad32a823b14c7ae7350981af21bdff12a1a8c"}, {"body": "goku", "url": "mxc://matrix.org/hEZStspHhcqtsPjukpRsNqvO", "info": {"w": 256, "h": 144, "size": 211524, "mimetype": "image/png", "thumbnail_url": "mxc://matrix.org/hEZStspHhcqtsPjukpRsNqvO", "thumbnail_info": {"w": 256, "h": 144, "size": 211524, "mimetype": "image/png"}}, "msgtype": "m.sticker", "id": "sha256:18d6bdb18314db828a07634b9fd5bb802c88970410d5b1e31a22150ece0610e1"}, {"body": "nii", "url": "mxc://matrix.org/qeUPjDzWIGmTqQeKUiwJXiDx", "info": {"w": 256, "h": 256, "size": 282159, "mimetype": "image/png", "thumbnail_url": "mxc://matrix.org/qeUPjDzWIGmTqQeKUiwJXiDx", "thumbnail_info": {"w": 256, "h": 256, "size": 282159, "mimetype": "image/png"}}, "msgtype": "m.sticker", "id": "sha256:200b7d5c2c1727521aa97df813fc409ae267c2166d9b5ff79d1454561bf3616e"}]}
+{
+  "title": "Range Pack",
+  "id": "range",
+  "stickers": [
+    {
+      "body": "joever",
+      "url": "01-joever.png"
+    },
+    {
+      "body": "barack",
+      "url": "02-barack.png"
+    },
+    {
+      "body": "goku",
+      "url": "03-goku.png"
+    },
+    {
+      "body": "nii",
+      "url": "04-nii.png"
+    }
+  ]
+}
