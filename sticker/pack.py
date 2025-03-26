@@ -83,6 +83,7 @@ async def upload_sticker(file: str, directory: str, old_stickers: Dict[str, matr
         print(".", end="", flush=True)
         sticker = util.make_sticker(mxc, width, height, len(image_data), name)
         sticker["id"] = sticker_id
+        sticker["thumbnail"] = file
         print(" uploaded", flush=True)
     return sticker
 
