@@ -41,6 +41,13 @@ const makeThumbnailURL = url => {
 	}
 }
 
+const getStickerThumbnail = (sticker) => {
+	if (sticker.thumbnail) {
+		return `${PACKS_BASE_URL}/range/${sticker.thumbnail}`
+	}
+	return makeThumbnailURL(sticker.url)
+}
+
 
 // We need to detect iOS webkit because it has a bug related to scrolling non-fixed divs
 // This is also used to fix scrolling to sections on Element iOS
@@ -384,7 +391,7 @@ const NavBarItem = ({pack, iconOverride = null, onClickOverride = null, extraCla
 			${iconOverride ? html`
 				<span class="icon icon-${iconOverride}"/>
 			` : html`
-				<img src=${makeThumbnailURL(pack.stickers[0].url)}
+				<img src=${getStickerThumbnail(pack.stickers[0])}
 					alt=${pack.stickers[0].body} class="visible" />
 			`}
 		</div>
@@ -404,7 +411,7 @@ const Pack = ({pack, send}) => html`
 
 const Sticker = ({content, send}) => html`
 	<div class="sticker" onClick=${send} data-sticker-id=${content.id}>
-		<img data-src=${makeThumbnailURL(content.url)} alt=${content.body} title=${content.body}/>
+		<img data-src=${getStickerThumbnail(content)} alt=${content.body} title=${content.body}/>
 	</div>
 `
 
