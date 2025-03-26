@@ -4,19 +4,51 @@
   "stickers": [
     {
       "body": "joever",
-      "url": "01-joever.png"
+      "url": "01-joever.png",
+      "id": "joever",
+      "msgtype": "m.sticker",
+      "info": {
+        "mimetype": "image/png",
+        "w": 256,
+        "h": 256,
+        "size": 123456
+      }
     },
     {
       "body": "barack",
-      "url": "02-barack.png"
+      "url": "02-barack.png",
+      "id": "barack",
+      "msgtype": "m.sticker",
+      "info": {
+        "mimetype": "image/png",
+        "w": 256,
+        "h": 256,
+        "size": 123456
+      }
     },
     {
       "body": "goku",
-      "url": "03-goku.png"
+      "url": "03-goku.png",
+      "id": "goku",
+      "msgtype": "m.sticker",
+      "info": {
+        "mimetype": "image/png",
+        "w": 256,
+        "h": 256,
+        "size": 123456
+      }
     },
     {
       "body": "nii",
-      "url": "04-nii.png"
+      "url": "04-nii.png",
+      "id": "nii",
+      "msgtype": "m.sticker",
+      "info": {
+        "mimetype": "image/png",
+        "w": 256,
+        "h": 256,
+        "size": 123456
+      }
     }
   ]
 }
