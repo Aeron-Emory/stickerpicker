@@ -5,6 +5,7 @@
     {
       "body": "joever",
       "url": "mxc://matrix.org/YdUIOJOMYOmNtHtWSriPfmhK",
+	  "thumbnail": "01-joever.png",
       "info": {
         "w": 256,
         "h": 256,
@@ -24,6 +25,7 @@
     {
       "body": "barack",
       "url": "mxc://matrix.org/zjtwcabptHoWLFqnlngeLfSY",
+	  "thumbnail": "02-barack.png",
       "info": {
         "w": 256,
         "h": 256,
@@ -43,6 +45,7 @@
     {
       "body": "goku",
       "url": "mxc://matrix.org/hEZStspHhcqtsPjukpRsNqvO",
+	  "thumbnail": "03-goku.png",
       "info": {
         "w": 256,
         "h": 144,
@@ -62,6 +65,7 @@
     {
       "body": "nii",
       "url": "mxc://matrix.org/qeUPjDzWIGmTqQeKUiwJXiDx",
+	  "thumbnail": "01-nii.png",
       "info": {
         "w": 256,
         "h": 256,
