@@ -43,10 +43,8 @@ const makeThumbnailURL = url => {
 
 const getStickerThumbnail = (sticker) => {
 	if (sticker.thumbnail) {
-		console.log("[THUMBNAIL] Using local thumbnail for:", sticker.body, "->", sticker.thumbnail)
 		return `${PACKS_BASE_URL}/range/${sticker.thumbnail}`
 	}
-	console.log("[THUMBNAIL] Falling back to MXC for:", sticker.body)
 	return makeThumbnailURL(sticker.url)
 }
 
